@@ -85,38 +85,6 @@
 //     console.log(count);
 // }
 
-// FOR-8
-
-// let a = 6 , b = 10 , count=1 ;
-
-// if (a < b) {
-//     for (let i = a ; i <= b; i++) {  
-//         count*=i
-//     }
-// } else{
-//     for (let i = b; i <= a; i++) {
-//         count*=i  
-//     }
-// }
-// console.log(count);
-
-// FOR-9
-
-// let a = 5 , b = 14 , count=0 ;
-
-// if (a < b) {
-//     for (let i = a ; i <= b; i++) {  
-//         let result= i*i
-//         count+=result
-//     }
-// } else{
-//     for (let i = b; i <= a; i++) {
-//         let result= i*i
-//         count+=result
-//     }
-// }
-// console.log(count);
-
 // FOR-10
 
 // let n = 100, count = 0
@@ -134,3 +102,35 @@
 //     count += Math.pow(n+i,2)
 // }
 // console.log(count);
+
+// FOR-12
+
+// let n = 7;
+// let result = 1.1;
+// for (let i = 1.1; i <= n; i += 1) {
+//     result *= i;
+// }
+// console.log(result);
+
+// FOR-13
+
+// let n = 6 , a = 0.0 , b = 1 , c = 1.1;
+
+// for (let i = 1; i <= n; i++) {
+//     a += b * c;
+//     c += 0.1;
+//     b *= -1;
+// }
+
+// console.log(a);
+
+// FOR-14
+
+// let a = 9, count = 1
+
+// for(let i = 3; i <= a ; i=+2){
+//     console.log(`${count}+${i}`);
+//     count =+ i;
+// }
+
+// console.log(Math.pow(a , 2));
