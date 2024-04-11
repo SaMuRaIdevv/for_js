@@ -197,3 +197,120 @@
 //    count += x
 // }
 // console.log(count);
+
+// FOR-21
+
+
+
+// let n = 4 , count = 0;
+
+// for (let i = 1; i <= n; i++) {
+//    let x = 1;  
+//    for (let j = 1 ; j <= i; j++) {
+//       x*=j
+//    }
+//    count += 1/x
+// }
+// console.log(count);
+
+
+
+// FOR-22
+
+
+// let n = 4 , count = 0;
+
+// for (let i = 1; i <= n; i++) {
+//    let x = 2;
+//    x **= i;  
+//    for (let j = 1 ; j <= i; j++) {
+//       x*=j
+//    }
+//    count += 1/x
+   
+// }
+// console.log(count);
+
+
+// FOR-23
+
+
+
+// let n = 5 , count = 0 , sum = 0;
+
+// for (let i = 1; i <= n; i+=2) {
+//    let x = 2;
+//    x **= i;
+//    sum = 1;
+//    for (let j = 1 ; j <= i; j++) {
+//       sum*=j
+//    }
+//    count += x/sum
+//    x *=-1
+//    console.log(x);
+// }
+// console.log(count);
+
+
+// FOR-24
+
+
+
+
+// let n = 5 , count = 0 , sum = 0;
+
+// for (let i = 0; i <= n; i+=2) {
+//    let x = 2;
+//    x **= i;
+//    sum = 1;
+//    for (let j = 1 ; j <= i; j++) {
+//       sum*=j
+//    }
+//    count += x/sum
+//    x *=-1
+// }
+// console.log(count);
+
+
+// FOR-25
+
+
+// let n = 5 , count = 0 , sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//    let x = 2;
+//    x **= i;
+//    sum = 1;
+//    count += x/i
+//    x *=-1
+//    console.log(x);
+// }
+// console.log(count);
+
+
+
+// FOR-26
+
+
+
+// let n = 5 , count = 0 , sum = 0;
+
+// for (let i = 1; i <= n; i+=2) {
+//    let x = 2;
+//    x **= i;
+//    sum = 1;
+//    count += x/i
+//    x *=-1
+//    console.log(i);
+// }
+// console.log(count);
+
+// FOR-29
+
+let n = 5 , a = 0 , b = 30 ;
+    let diff = (b - a) / n
+    for (let i = 0; i < diff ; i++) {
+        a += diff ;
+        console.log(n);
+        
+    }
