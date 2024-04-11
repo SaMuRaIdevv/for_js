@@ -184,3 +184,16 @@
 //    count *= i
 //    console.log(count);
 // }
+
+// FOR-20
+
+// let n = 4 , count = 0;
+
+// for (let i = 1; i <= n; i++) {
+//    let x = 1;  
+//    for (let j = 1 ; j <= i; j++) {
+//       x*=j
+//    }
+//    count += x
+// }
+// console.log(count);
