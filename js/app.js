@@ -134,3 +134,53 @@
 // }
 
 // console.log(Math.pow(a , 2));
+
+// FOR-15
+
+// let a = 2 , b = 3 ;
+// for (let i = 1; i <= 1; i++) {
+//     a **= b;
+// }
+// console.log(a)
+
+// FOR-16
+
+
+// let a = 3, b = 3 ;
+
+// for (let i = 0; i <= b; i++) {
+//    c = a**i
+//    console.log(c)
+// }
+
+// FOR-17
+
+
+
+// let a = 5, b = 2 , c = 0;
+
+// for (let i = 0; i <= b; i++) {
+//    c += Math.pow(a,i)
+//    console.log("c="+c);
+// }
+// console.log(c);
+
+// FOR-18
+
+// let a = 2, b = 2, c = 0;
+
+// for (let i = 0; i <= b; i++) {
+//    c += a ** i ;
+//    console.log("c="+c);
+//    a *= -1;
+// }
+// console.log(c);
+
+// FOR-19
+
+// let n = 5 , count = 1;
+
+// for (let i = 1; i <= n; i++) {
+//    count *= i
+//    console.log(count);
+// }
