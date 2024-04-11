@@ -307,10 +307,25 @@
 
 // FOR-29
 
-let n = 5 , a = 0 , b = 30 ;
-    let diff = (b - a) / n
-    for (let i = 0; i < diff ; i++) {
-        a += diff ;
-        console.log(n);
+// let n = 5 , a = 0 , b = 30 ;
+//     let diff = (b - a) / n
+//     for (let i = 0; i < diff ; i++) {
+//         a += diff ;
+//         console.log(n);
         
-    }
+//     }
+
+// FOR-30
+
+// let n = 5 , a = 0 , b = 20 ;
+    // let diff = (b - a) / n
+    // for (let i = 0; i < diff ; i++) {
+    //     a += diff ;
+    //     let x = 1 - Math.sin(Math.PI/a)
+    //     console.log(x);
+        
+    // }
+
+    let a = 5
+
+    console.log(a);
